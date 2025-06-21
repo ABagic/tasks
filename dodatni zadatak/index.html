@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Item picker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="start-menu">
+      <h1>Choose your item</h1>
+      <p>
+        Here you can choose what item you want as starter. Move with WASD or
+        arrows
+      </p>
+      <div class="object-selections">
+        <button id="object-selection-1" class="object-selection">
+          Toggle Object 1
+        </button>
+        <button id="object-selection-2" class="object-selection">
+          Toggle Object 2
+        </button>
+        <button id="object-selection-3" class="object-selection">
+          Toggle Object 3
+        </button>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script type="module" src="script.js" defer></script>
+  </body>
+</html>

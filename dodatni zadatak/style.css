@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.start-menu * {
+  text-align: center;
+}
+.start-menu {
+  position: absolute;
+  border-radius: 10px;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 25%;
+  background-color: #777777e1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.object-selection {
+  color: white;
+  background: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 1440px) {
+  .start-menu {
+    width: 30%;
+    height: 20%;
+  }
+}
